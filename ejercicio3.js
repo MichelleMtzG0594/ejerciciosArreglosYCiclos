@@ -15,21 +15,21 @@ const sumOfNumbers = numbers.reduce((accumulator,number)=> {
     const sum = accumulator + number;
     return sum;
 })
-console.log(`La suma de ${numbers.join(" + ")} es igual a :`, sumOfNumbers)
+console.log(`La suma de ${numbers.join(" + ")} es igual a `, sumOfNumbers)
 
 const multiOfNumbers = numbers.reduce((accumulator,number)=> {
      const multi = accumulator * number;
     return multi;
 })
-console.log(`La multiplicación de ${numbers.join(" * ")} es igual a :`, multiOfNumbers)
+console.log(`La multiplicación de ${numbers.join(" * ")} es igual a `, multiOfNumbers)
 
 const printInDOM = () => {
     const parrThree = document.getElementById("resultado-ejercicio-3");
     
     const resultSum = sumOfNumbers
     const resultMulti = multiOfNumbers
-    parrThree.innerHTML = `La suma de ${numbers.join(" + ")} es igual a : ${resultSum}.
-    <br>La multiplicación ${numbers.join(" * ")} es igual a: ${resultMulti}. `
+    parrThree.innerHTML = `La suma de ${numbers.join(" + ")} es igual a ${resultSum}.
+    <br>La multiplicación ${numbers.join(" * ")} es igual a ${resultMulti}. `
 }
 
 printInDOM()

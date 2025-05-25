@@ -28,7 +28,8 @@ console.log(output);
 const printInDOM = () => {
     const parrSix = document.getElementById("resultado-ejercicio-6");
     
-    parrSix.innerHTML = `El input es: [3, 6, 12, 5, 100, 1]  y el output es [${output}]`
+    parrSix.innerHTML = `Input: [3, 6, 12, 5, 100, 1]  
+    <br> Output: [${output.join(" , ")}]`
 }
 
 printInDOM()

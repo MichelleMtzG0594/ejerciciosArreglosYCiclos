@@ -22,7 +22,7 @@ const printInDOM = () => {
     const parrOne = document.getElementById("resultado-ejercicio-1");
     
     const result = printOutString()
-    parrOne.innerHTML = `El resultado es: ${result}`
+    parrOne.innerHTML = `${result}`
 }
 
 printInDOM()

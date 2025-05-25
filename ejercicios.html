@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +10,14 @@
 
 </head>
 <body>
-    <h1>Ejercicios sobre arreglos y ciclos</h1>
-    <section>
-        <div>
-            <h2>Ejercicio 1</h2>
-                <pre>
+    <h1  class="text-info bg-dark">Ejercicios sobre arreglos y ciclos</h1>
+    <h6  class="text-info-emphasis bg-dark">Hecho por Mich MG</h6>
+
+ <section class="container text-center gap-3">
+    <div class="row" >
+            <div class="col-lg-12">
+                <h2  class="text-info bg-dark">Ejercicio 1</h2>
+                <pre class="text-warning bg-dark">
                     let arr = ["This", "is", "a", "sentence."];
                     function printOutString() {
                     // your code here
@@ -22,45 +25,60 @@
                     printOutString();
                     Complete the function to print out the string: This is a sentence.
                 </pre>
-                <p id="resultado-ejercicio-1" >Resultado</p>
+                <img src="/public/images/ejercicio1.png" class="img-fluid" alt="screenshot de codigo ejercicio 1">
+                <p class="text-danger-emphasis">El resultado es:</p>
+                <p  class="text-danger-emphasis" id="resultado-ejercicio-1" >Resultado</p>
 
-        </div>
-        <div>
-           <h2> Ejercicio 2</h2>
-             <pre>
+            </div>
+
+        <div class="col-lg-12">
+           <h2  class="text-info bg-dark"> Ejercicio 2</h2>
+             <pre class="text-warning bg-dark">
                 Write a function that:
                 Takes in an array of numbers.
                 Doubles the value of each number in the array.
                 Prints out the new updated array.
                 Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10]
            </pre>
-           <p id="resultado-ejercicio-2" >Resultado</p>
+           <div>
+               <img src="/public/images/ejercicio2.png" class="img-fluid" alt="screenshot de codigo ejercicio 2">
+            </div>
+            <p class="text-danger-emphasis bg-dark">El resultado es:</p>
+            <p class="text-danger-emphasis bg-dark" id="resultado-ejercicio-2" >Resultado</p>
 
         </div>
-        <div>
-            <h2>Ejercicio 3</h2>
-                <pre>
+        <div class="col-lg-12">
+            <h2  class="text-info bg-dark">Ejercicio 3</h2>
+                <pre class="text-warning bg-dark">
                     Write a program to compute the sum and product (multiplication) of an array of numbers. Print out the sum and the product.
                     Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24.
 
                 </pre>
-                <p id="resultado-ejercicio-3" >Resultado</p>
+                <div>
+                    <img src="/public/images/ejercicio3.png" class="img-fluid" alt="screenshot de codigo ejercicio 3">
+                </div>
+                <p class="text-danger-emphasis bg-dark">El resultado es:</p>
+                <p class="text-danger-emphasis bg-dark" id="resultado-ejercicio-3" >Resultado</p>
 
         </div>
-        <div>
-            <h2>Ejercicio 4</h2>
-            <pre>
+        <div class="col-lg-12">
+            <h2  class="text-info bg-dark">Ejercicio 4</h2>
+            <pre class="text-warning bg-dark">
                 let student1Courses = ['Math', 'English', 'Programming'];
                 let student2Courses = ['Geography', 'Spanish', 'Programming'];
                 Create a program that loops over the 2 arrays; if there are any common courses print them out to the console.
 
             </pre>
-            <p id="resultado-ejercicio-4" >Resultado</p>
+            <div>
+                <img src="/public/images/ejercicio4.png" class="img-fluid" alt="screenshot de codigo ejercicio 4">
+            </div>
+            <p class="text-danger-emphasis bg-dark">El resultado es:</p>
+            <p class="text-danger-emphasis bg-dark" id="resultado-ejercicio-4" >Resultado</p>
 
         </div>
-        <div>
-            <h2>Ejercicio 5</h2>
-            <pre>
+        <div class="col-lg-12">
+            <h2  class="text-info bg-dark">Ejercicio 5</h2>
+            <pre class="text-warning bg-dark">
                 For each of the exercises below, assume you are starting with the following people array.
                 let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
                 Write a command that prints out all of the people in the list.
@@ -73,19 +91,28 @@
                 At the end of the exercise, there should be 4 people in the array.
 
             </pre>
-            <p id="resultado-ejercicio-5" >Resultado</p>
+            <div>
+                <img src="/public/images/ejercicio5.png" class="img-fluid" alt="screenshot de codigo ejercicio 5">
+            </div>
+            <p class="text-danger-emphasis bg-dark">El resultado es:</p>
+            <p class="text-danger-emphasis bg-dark" id="resultado-ejercicio-5" >Resultado</p>
         </div>
-        <div>
-            <h2>Ejercicio 6</h2>
-            <pre>
+        <div class="col-lg-12">
+            <h2 class="text-info bg-dark">Ejercicio 6</h2>
+            <pre class="text-warning bg-dark">
                 Write a function that performs the bubble algorithm.
                 Input [3, 6, 12, 5, 100, 1]
                 Output [1, 3, 5, 6, 12, 100]
 
             </pre>
-            <p id="resultado-ejercicio-6" >Resultado</p>
+            <div>
+                <img src="/public/images/ejercicio6.png" class="img-fluid" alt="screenshot de codigo ejercicio 6">
+            </div>
+            <p class="text-danger-emphasis bg-dark">El resultado es:</p>
+            <p class="text-danger-emphasis bg-dark" id="resultado-ejercicio-6" >Resultado</p>
         </div>
-    </section>
+    </div>
+</section>
     <script type="module" src="/ejercicios.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
